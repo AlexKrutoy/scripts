@@ -64,7 +64,7 @@ class DiceMod(loader.Module):
                 count = 1
             rolled = -1
             done = 0
-            chat = message.to_id
+            chat = message.chat_id
             client = message.client
             while True:
                 task = client.send_message(chat, file=InputMediaDice(emoji))
