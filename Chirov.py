@@ -6,10 +6,9 @@ from .. import loader, utils
 class ChirovMod(loader.Module):
 	"""Слава украине на каждое сообщение чирова"""
 	strings = {
-        'name': 'Chirov'}
+        'name': 'Chirov')
         
-@loader.unrestricted
-async def chirovcmd(self, message):
-	"""Слава украине"""
-	logger.debug("logged")
-	await utils.answer(message, "да")
+        async def chirovcmd(self, message):
+        	"""Kekw"""
+        logger.debug("logged")
+        await utils.answer(message, "да")
