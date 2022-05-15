@@ -6,7 +6,7 @@ from .. import loader, utils
 class ChirovMod(loader.Module):
 	"""Слава bebra на каждое сообщение чирова"""
 	strings = {
-        'name': 'Chirov')
+        'name': 'Chirov'}
         
         async def chirovcmd(self, message):
         	"""Kekw"""
